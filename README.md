@@ -4,7 +4,7 @@ Relive the nostalgia with this retro-style Snake game. Maneuver through classic 
 
 This game is inspired by the Classic Nokia Snake Game.
 
-You can play the game here: \<to be updated...\>
+You can play the game here: https://sj21031-snake-game.netlify.app/ 
 
 ![image](https://github.com/Soham-Jadhav/Snake-Game/assets/98579549/1bd481fb-ee19-4c40-8628-24d25819a1fa)
 
