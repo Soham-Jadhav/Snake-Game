@@ -52,9 +52,6 @@ function setPosition(element, position) {
     element.style.gridRow = position.y;
 }
 
-// // Test draw function
-// draw();
-
 // Draw food particle
 function drawFood() {
     if (gameStarted) {
@@ -125,15 +122,6 @@ function move() {
     }
 }
 
-// // Test snake movement
-// setInterval(() => {
-//     //  Move the snake
-//     move();
-
-//     // Draw the board again to incorporate updates
-//     draw();
-// }, 200);
-
 // Function to start the game
 function startGame() {
     // Keep track of a running game
@@ -160,7 +148,6 @@ function handleKeyPress(event) {
         startGame();
     }
     else {
-        // console.log('go');
         switch (event.key) {
             case 'ArrowUp':
                 direction = 'up';
@@ -215,7 +202,6 @@ document.addEventListener('keydown', (event) => {
 
 // Increase the speed of the game
 function increaseSpeed() {
-    // console.log(gameSpeedDelay);
     if (gameSpeedDelay > 150) {
         gameSpeedDelay -= 5;
     }
